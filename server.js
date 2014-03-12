@@ -35,4 +35,6 @@ server.listen(app.get('port'), function () {
 
 io.sockets.on("connection", function (socket) {
     socket.emit("connected", "CONNECTED!");
+    socket.on("disconnect", function () {
+    });
 });
