@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "3.2.6",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "grunt": "~0.4.3"
   }
 }
